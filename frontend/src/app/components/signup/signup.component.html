@@ -32,13 +32,14 @@
                 <div class="row mb-3">
                   <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
                   <div class="col-sm-10">
-                    <input type="password" name="password" class="form-control" id="inputPassword3"  placeholder="password"
-                    [(ngModel)]="form.password" required
+                    <input type="password" name="password" class="form-control" id="inputPassword3"  placeholder="password must be 8 characters long"
+                    [(ngModel)]="form.password" [ngClass]="{'is-invalid': !isPasswordValid()}" required
                     >
                   </div>
                   <div class="alert alert-danger" [hidden]="!error.password">
                     {{ error.password }}
                    </div> 
+                   
                 </div>
                 <div class="row mb-3">
                   <label for="inputPasswordConfirmation3" class="col-sm-2 col-form-label">Password</label>

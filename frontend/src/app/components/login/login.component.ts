@@ -67,7 +67,7 @@ export class LoginComponent implements OnInit{
    */
   handleError(error: { error: { error: null; }; }) {
     this.error = error.error.error;
-    this.toaster.error('Kindly Sort out the form errors!')
+    this.toaster.error(JSON.stringify(this.error))
   }
   ngOnInit(): void {
     
