@@ -27,22 +27,22 @@ For the password reset feature to work, you need to use your own Mailtrap creden
 
 
 # Signup
-![Screenshot 1](frontend/public/assets/img/signup.png)
+![Screenshot 1](frontend/public/assets/img/signup-1.png)
 
 # Login
-![Screenshot 1](frontend/public/assets/img/login.png)
+![Screenshot 1](frontend/public/assets/img/login-1.png)
 
 # LandingPage
-![Screenshot 1](frontend/public/assets/img/profile.png)
+![Screenshot 1](frontend/public/assets/img/profile-1.png)
 
 # PasswordReset
-![Screenshot 1](frontend/public/assets/img/request-reset.png)
+![Screenshot 1](frontend/public/assets/img/request-reset-1.png)
 
 # MailTrapResetEmail
-![Screenshot 1](frontend/public/assets/img/mailtrap-password-reset.png)
+![Screenshot 1](frontend/public/assets/img/mailtrap-password-reset-1.png)
 
 # ResetPasswordForm
-![Screenshot 1](frontend/public/assets/img/response-request.png)
+![Screenshot 1](frontend/public/assets/img/response-request-1.png)
 
 
 
