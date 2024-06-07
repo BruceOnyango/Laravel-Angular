@@ -17,6 +17,7 @@ import { JarwisService } from './Services/jarwis.service';
 import { TokenService } from './Services/token.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule, ToastrService,  } from 'ngx-toastr';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ToastrModule, ToastrService,  } from 'ngx-toastr';
     SignupComponent,
     ProfileComponent,
     RequestResetComponent,
-    ResponseResetComponent
+    ResponseResetComponent,
+    FormBuilder, FormGroup, Validators 
   ],
   imports: [
     FormsModule,
