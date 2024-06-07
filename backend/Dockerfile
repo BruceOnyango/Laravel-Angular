@@ -7,6 +7,9 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 # Set the working directory
 WORKDIR /var/www/html
 
+# Copy .env.example and create .env
+COPY .env.example .env
+
 # Copy the application files
 COPY . .
 
